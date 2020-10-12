@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#154928">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            android:layout_marginStart="-1dp"
+            android:layout_marginLeft="-1dp"
+            android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/text_nam_d"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_margin="20dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginEnd="27dp"
+                    android:layout_marginRight="27dp"
+                    android:fontFamily="@font/allura"
+                    android:hint="Enter name of disease"
+                    android:textColor="@color/cardview_light_background" />
+
+                <EditText
+                    android:id="@+id/note_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginStart="41dp"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginRight="40dp"
+                    android:ems="10"
+                    android:fontFamily="@font/allura"
+                    android:gravity="start|top"
+                    android:hint="Enter comments of changing in palms "
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/cardview_light_background"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="346dp" />
+
+                <LinearLayout
+                    android:layout_width="375dp"
+                    android:layout_height="85dp"
+                    android:layout_margin="20dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginEnd="71dp"
+                    android:layout_marginRight="71dp"
+                    android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/imageButton_di_date"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginStart="14dp"
+                            android:layout_marginLeft="14dp"
+                            android:background="#FFFFFF"
+                            android:src="@drawable/plant"
+                            tools:layout_editor_absoluteX="14dp"
+                            tools:layout_editor_absoluteY="583dp" />
+
+                        <EditText
+                            android:id="@+id/date_picker"
+                            android:layout_width="200dp"
+                            android:layout_height="43dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginRight="10dp"
+                            android:ems="10"
+                            android:fontFamily="@font/allura"
+                            android:inputType="date"
+                            android:textColor="@color/cardview_light_background"
+                            tools:layout_editor_absoluteX="142dp"
+                            tools:layout_editor_absoluteY="608dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="395dp"
+                    android:layout_height="66dp"
+                    android:layout_margin="20dp"
+                    android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/b1"
+                            android:layout_width="150dp"
+                            android:layout_height="60dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_margin="10dp"
+                            android:layout_marginStart="18dp"
+                            android:layout_marginLeft="18dp"
+                            android:background="#407542"
+                            android:fontFamily="@font/allura"
+                            android:textColor="@color/cardview_light_background"
+                            tools:layout_editor_absoluteX="344dp"
+                            tools:layout_editor_absoluteY="709dp" />
+
+                        <Button
+                            android:id="@+id/b2"
+                            android:layout_width="150dp"
+                            android:layout_height="60dp"
+                            android:layout_margin="10dp"
+                            android:layout_marginEnd="44dp"
+                            android:layout_marginRight="44dp"
+                            android:background="#407542"
+                            android:fontFamily="@font/allura"
+                            android:textColor="@color/cardview_light_background" />
+                </LinearLayout>
+        </LinearLayout>
+
+
+</RelativeLayout>

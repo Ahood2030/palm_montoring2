@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#154928">
+
+    <LinearLayout
+        android:layout_width="391dp"
+        android:layout_height="805dp"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:fontFamily="@font/allura"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="View Informaiton"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="30sp"
+            tools:layout_margin="30dp"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/button_m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:background="#407542"
+            android:text="VIew Montoring Information"
+            android:textColor="@color/cardview_light_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:background="#407542"
+            android:textColor="@color/cardview_light_background"
+            android:text="View Diseases Palm Informaition" />
+    </LinearLayout>
+</RelativeLayout>

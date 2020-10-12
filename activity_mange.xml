@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#154928">
+
+    <LinearLayout
+        android:layout_width="399dp"
+        android:layout_height="612dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="75dp"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <Button
+            android:id="@+id/Add"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:layout_weight="0"
+            android:background="#407542"
+            android:textColor="@color/cardview_light_background"
+            android:text="Add Informaton"
+            android:fontFamily="@font/allura"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:layout_weight="0"
+            android:background="#407542"
+            android:textColor="@color/cardview_light_background"
+            android:fontFamily="@font/allura"
+            android:text="Update Inftmation" />
+
+        <Button
+            android:id="@+id/delete"
+            android:fontFamily="@font/allura"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:layout_weight="0"
+            android:background="#407542"
+            android:textColor="@color/cardview_light_background"
+            android:text="Delete palm" />
+
+        <Button
+            android:id="@+id/view"
+            android:fontFamily="@font/allura"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:layout_weight="0"
+            android:background="#407542"
+            android:ems="10"
+            android:textColor="@color/cardview_light_background"
+            android:text="View Palms " />
+
+        <Button
+            android:id="@+id/button_noti"
+            android:fontFamily="@font/allura"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:layout_weight="0"
+            android:background="#407542"
+            android:textColor="@color/cardview_light_background"
+            android:text="addnotification after " />
+
+
+    </LinearLayout>
+</RelativeLayout>
